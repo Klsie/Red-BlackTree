@@ -32,5 +32,27 @@ public class Main {
         System.out.println("Inorder----------------------------");
         nodo.inOrden(root);
     }
+
+        
+    //Para ingresar datos manuales
+// public static void main(String[] args) {
+//        Scanner read = new Scanner(System.in);
+//        System.out.println("Ingrese datos mayores a 0----------------------------");           
+//        int leer;
+//        do {
+//            leer = read.nextInt();
+//            root = nodo.insert(root, leer);
+//            root.color = false;
+//
+//            System.out.println("Arbol");
+//            nodo.imprimirArbol(root);
+//            System.out.println("Preorder----------------------------");
+//            nodo.preOrden(root);
+//            System.out.println("PostOrder----------------------------");
+//            nodo.postOrden(root);
+//            System.out.println("Inorder----------------------------");
+//            nodo.inOrden(root);
+//        } while (leer != 0);
+//    }
     
 }
